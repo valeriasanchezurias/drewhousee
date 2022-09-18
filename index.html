@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Drew house</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+	 <script type="text/javascript">
+    function obten(){
+    var Nm=document.getElementById("Name").value;
+    var Nn=document.getElementById("Nickname").value;
+     //alert para que muestre tu nombre(Nm) y apodo(Nn)
+    alert("welcome "+Nn); }
+    </script>
+</head>
+
+<body bgcolor="#FFF4B9">
+	<p style="float: left;"><img src="logo.png"  width="85" height="70"></p>
+	<h1>drew house</h1>
+    <nav>
+  	    <ul>
+  	    	<a>WELCOME TO THE DREW HOUSE</a>
+  	    </ul>
+    </nav>
+         <div class="contenido">
+            <div class="articulos">
+             <div class="secciones">
+            <div>
+            <p>Log in to stay tuned!</p>
+            <form id="info">
+            <label>Name:</label>
+            <input type="text" id="Name">
+        <br>
+            <label>Nickname:</label>
+            <input type="text" id="Nickname">
+        <br>
+            <label>Email:</label>
+            <input type="text" id="Favoritebook">
+        <br>
+            <label for="uno">Age:</label><select name="dias" id="uno">
+           <option value="1">15</option>    
+           <option value="2">16</option>  
+           <option value="3">17</option>  
+           <option value="4">18</option>  
+           <option value="5">19</option>  
+           <option value="6">20</option>  
+           <option value="7">21</option>  
+           <option value="8">22</option>  
+           <option value="9">23</option></select>
+        <br>
+            <label>Sex:</label>
+            <input type="checkbox" name="disco" id="f">Female
+            <input type="checkbox" name="disco" id="m">Male
+            <p><button type="reset">Reset</button></p>
+         </form>
+            <!--Botón que te lleva a la página una vez iniciado sesión-->
+            <a href="drew_menu.html">
+            <input type="button" onclick="obten()" value="log in" style="color
+            gray ; width:100px;height:30px;"></a> <br><br>
+        <style type="text/css"> img {
+        float:left;
+         }
+         </style>
+         <img src="drew2.jpeg" width="450" height="325">
+         </div>
+         </div>
+     </div>
+      <footer>
+        <!--Frase-->
+      	    <p>drew house is a place. drew house is a community. all drews are welcome.</p>
+      </footer> 
+</body>
+</html>
+
+
